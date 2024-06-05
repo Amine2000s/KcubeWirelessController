@@ -8,18 +8,25 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="406dp"
-        app:srcCompat="@drawable/kcub_logo"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="-6dp" />
+        android:layout_width="307dp"
+        android:layout_height="372dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/kcub_logo" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="103dp"
-        android:layout_height="50dp"
+        android:id="@+id/startbutton"
+        android:layout_width="234dp"
+        android:layout_height="47dp"
         android:text="Start"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="422dp" />
+        android:onClick="SwitchActivityOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
