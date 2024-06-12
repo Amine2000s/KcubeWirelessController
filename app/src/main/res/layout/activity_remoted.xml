@@ -1,0 +1,141 @@
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Center Button -->
+    <ImageView
+        android:id="@+id/button_center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#6AAFE6"
+        android:src="@drawable/button_center"
+        />
+
+    <!-- Top Button -->
+    <ImageView
+        android:id="@+id/button_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#6AAFE6"
+        android:src="@drawable/button_assets_1"
+        />
+
+
+
+    <!-- Bottom Button -->
+
+    <ImageView
+        android:id="@+id/button_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#6AAFE6"
+        android:src="@drawable/button_assets_1"
+        android:rotation="180"
+        />
+
+
+    <!-- Left Button -->
+    <ImageView
+        android:id="@+id/button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/button_center"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="-5dp"
+        android:backgroundTint="#6AAFE6"
+        android:src="@drawable/button_assets_1"
+        android:rotation="270"/>
+
+    <!-- Right Button -->
+    <ImageView
+        android:id="@+id/button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button_center"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-5dp"
+        android:backgroundTint="#6AAFE6"
+        android:src="@drawable/button_assets_1"
+        android:rotation="90"/>
+
+    <!-- Degree Right Button -->
+    <ImageView
+        android:id="@+id/button_degreeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_right"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#6AAFE6"
+        android:rotation="135"
+        android:src="@drawable/button_degree" />
+
+    <!-- Degree Left Button -->
+
+    <ImageView
+        android:id="@+id/button_degreeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_left"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#6AAFE6"
+        android:rotation="225"
+        android:src="@drawable/button_degree" />
+    />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_center"
+        android:layout_below="@+id/button_center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="-296dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="191dp"
+        android:text="Open the door"
+        android:textColor="@color/blue" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_center"
+        android:layout_below="@+id/button_bottom"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="-338dp"
+        android:text="Connect"
+        android:textColor="@color/blue" />
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_bottom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="47dp"
+        android:layout_toEndOf="@+id/button5"
+        android:text="Disconnect"
+        android:textColor="@color/blue" />
+
+</RelativeLayout>
