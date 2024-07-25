@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_main.xml -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kcubewirelesscontroller.ModeOfControlActivity"
-
-    >
-
+    tools:context=".CameraModeControlActivity">
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,13 +22,13 @@
             android:padding="20dp"
             >
 
-            <TextView
+            <EditText
                 android:id="@+id/textView"
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Choose the Mode of Control"
+                android:text="LogIn"
                 android:textColor="@color/moreBlue"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -60,7 +57,7 @@
 
                 />
 
-            <Button
+            <EditText
                 android:id="@+id/gps"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
@@ -79,5 +76,4 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
