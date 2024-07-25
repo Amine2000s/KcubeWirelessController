@@ -2,7 +2,20 @@
 
 this Application is a Controller Unit of a Delivery Robot Prototype 'KCube' made in University of Biksra 
 
-## Contributers 
+
+## Demonstration 
+
+## Features 
+ - All Direction Controls with of the Delivery Robot(Forward , Backawrds , Left ,Right ,90° Left/Right)
+ - Ability to Open the Lid in order to Claim the Package
+ - Location retrieval of the robot , user and the ability to draw route between the robot and user
+## Screenshots 
+
+## perspective
+
+ we aim to build a platform specefied to for robot delivery managmnet between all parts of our university where this application is a the users entry point wehre they rent a robot and guide it to their end destination
+
+## Contributors 
   Abbderahmane Kermiche [@Kr-abdou](https://github.com/Kr-Abdou) : UI/UX Design
 
  Chabi Amin [@Amine200s](https://github.com/Amine2000s) : Development 
