@@ -1,14 +1,11 @@
 ## Kcube Controller Unit 
 
 this Application is a Controller Unit of a Delivery Robot Prototype 'KCube' made in University of Biksra 
+the application connect with the  internal arduino bluetooth board HC05 through bluetooth sockets 
 
 ![robot_picture](/screenshots/robot%20picture.jpg)
 
-## Demonstration
-
-## Tech Stack 
-    
-    Java 
+## Demonstration 
 
 
 ## Features 
@@ -25,6 +22,13 @@ this Application is a Controller Unit of a Delivery Robot Prototype 'KCube' made
 ## perspective
 
  we aim to build a platform specefied to for robot delivery managmnet between all parts of our university where this application is a the users entry point wehre they rent a robot and guide it to their end destination
+
+### How to setup
+
+    the current version allows only  for static pairing to the bluettoh board , and in order to do that : 
+    1 - turn on your bluettoh and connect it 
+    1- go to remotedActivity.java 
+
 
 ## Contributors 
   Abbderahmane Kermiche [@Kr-abdou](https://github.com/Kr-Abdou) : UI/UX Design
