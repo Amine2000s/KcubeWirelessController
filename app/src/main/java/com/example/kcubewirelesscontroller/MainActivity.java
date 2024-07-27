@@ -26,6 +26,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String BLUETOOTH_MAC_ADRESS = "98:D3:71:FD:93:0D";
+
     Button startbutton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

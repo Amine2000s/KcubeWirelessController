@@ -2,6 +2,8 @@ package com.example.kcubewirelesscontroller;
 
 
 
+import static com.example.kcubewirelesscontroller.MainActivity.BLUETOOTH_MAC_ADRESS;
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -131,7 +133,7 @@ public class GpsModeControlActivity extends AppCompatActivity {
         }
         System.out.println(btAdapter.getBondedDevices());
         //set the mac adress of your hc05
-        hc05 = btAdapter.getRemoteDevice("98:D3:71:FD:93:0D");
+        hc05 = btAdapter.getRemoteDevice(BLUETOOTH_MAC_ADRESS);
         System.out.println(hc05.getName());
         connect();
         setLocationBtn.setOnClickListener(new View.OnClickListener() {
