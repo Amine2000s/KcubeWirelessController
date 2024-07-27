@@ -25,8 +25,8 @@ the application connect with the  internal arduino bluetooth board HC05 through 
 
 ### How to setup
 
-    the current version allows only  for static pairing to the bluettoh board , and in order to do that : 
-    1 - turn on your bluettoh and connect it 
+   the current version allows only  for static pairing to the bluettoh board , and in order to do that : 
+    1 - turn on your bluettoh and connect it to HC-05 arduino board and save it's mac adress
     1- go to remotedActivity.java 
 
 
